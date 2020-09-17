@@ -94,7 +94,7 @@ const HooksSuspenseExample = ({rand}) => {
 
 const PixelsExample = (e) => {
   const {src, isLoading, error} = usePixel({
-    srcList: 'http://robor.libpx.com/images/intelli_ques.jpg',
+    srcList: 'http://example-repo.libpx.com/images/sample_img.jpg',
     pixelParams: {
       mode: 'stretch',
       crop: {
