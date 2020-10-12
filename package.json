@@ -1,6 +1,6 @@
 {
   "name": "react-libpixel",
-  "version": "4.0.6",
+  "version": "1.0.1",
   "description": "React Pixel is an extenction of React Image, which is an <img> tag replacement for react, featuring preloader and multiple image fallback support",
   "scripts": {
     "build": "npm run build:types && NODE_ENV=production rollup -c && for i in cjs esm umd; do cp src/*test.js $i; done && rm -rf jsSrc",
