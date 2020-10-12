@@ -1,7 +1,7 @@
 {
-  "name": "react-image",
-  "version": "4.0.3",
-  "description": "React Image is an <img> tag replacement for react, featuring preloader and multiple image fallback support",
+  "name": "react-libpixel",
+  "version": "4.0.6",
+  "description": "React Pixel is an extenction of React Image, which is an <img> tag replacement for react, featuring preloader and multiple image fallback support",
   "scripts": {
     "build": "npm run build:types && NODE_ENV=production rollup -c && for i in cjs esm umd; do cp src/*test.js $i; done && rm -rf jsSrc",
     "build:types": "tsc -p tsconfig.json",
@@ -13,7 +13,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/mbrevda/react-image.git"
+    "url": "git+ssh://git@github.com:danishyasin33/react-image.git"
   },
   "keywords": [
     "reactjs",
@@ -34,7 +34,10 @@
     "react image transition",
     "react image fade",
     "image transition",
-    "image fade"
+    "image fade",
+    "libpixel",
+    "image processing",
+    "cdn delivery"
   ],
   "files": [
     "*.md",
@@ -49,12 +52,12 @@
   "main": "cjs/index.js",
   "browser": "umd/index.js",
   "types": "react-image.d.ts",
-  "author": "mbrevda@gmail.com",
+  "author": "danishyasin33@gmail.com",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/mbrevda/react-image/issues"
+    "url": "https://github.com/danishyasin33/react-image/issues"
   },
-  "homepage": "https://github.com/mbrevda/react-image#readme",
+  "homepage": "https://github.com/danishyasin33/react-image/#readme",
   "devDependencies": {
     "@babel/cli": "7.11.6",
     "@babel/core": "7.11.6",
