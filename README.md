@@ -1,10 +1,13 @@
 # React Libpixel 🏝 🏖 🏜
 
+React hook to generate LibPixel URLs
+
 [![npm](https://img.shields.io/npm/v/react-libpixel.svg?style=flat-square)](https://www.npmjs.com/package/react-libpixel)
 [![npm](https://img.shields.io/npm/l/react-libpixel.svg?style=flat-square)](https://www.npmjs.com/package/react-libpixel)
 [![npm](https://img.shields.io/npm/dt/react-libpixel.svg?style=flat-square)](https://www.npmjs.com/package/react-libpixel)
 [![npm](https://img.shields.io/npm/dm/react-libpixel.svg?style=flat-square)](https://www.npmjs.com/package/react-libpixel)
 [![Known Vulnerabilities](https://snyk.io/test/github/danishyasin33/react-libpixel/badge.svg)](https://snyk.io/test/github/danishyasin33/react-libpixel)
+
 
 **React LibPixel** is an `<img>` tag replacement and hook for [React.js](https://facebook.github.io/react/), supporting fallback to alternate sources when loading an image fails.
 
