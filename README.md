@@ -1,4 +1,4 @@
-# React Libpixel 🏝 🏖 🏜
+# React Libpixel
 
 React hook to generate LibPixel URLs
 
